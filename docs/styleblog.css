@@ -1,7 +1,7 @@
 .blog {
   display: grid;
   background: url("image/blog.jfif") no-repeat center;
-  height: 100vh;
+  height: 130vh;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -15,7 +15,7 @@ img {
   border: 5px;
   border-style: solid;
   border-radius: 20px;
-  color: rgb(26, 179, 77);
+  color: rgb(254, 245, 245);
 }
 
 .grid-container {
@@ -31,57 +31,8 @@ img {
     "oyo oyo oyo";
 }
 
-@media only screen and (max-width: 500px) {
-  .blog {
-    display: grid;
-    background: url("image/blog.jfif") no-repeat center;
-    height: 200vh;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Ubuntu", sans-serif;
-    justify-content: center;
-  }
-  img {
-    height: 200px;
-    width: 200px;
-    border: 2px;
-    border-style: solid;
-    border-radius: 20px;
-    color: rgb(26, 179, 77);
-  }
-
-  .grid-container {
-    display: grid;
-    grid-gap: 20px;
-    width: 250px;
-    height: 1200px;
-    grid-template-areas:
-      "ring "
-      " akobo"
-      " monatan "
-      " lekki"
-      " olo"
-      "abeokuta"
-      "oyo";
-  }
-  .grid-container h2 {
-    font-size: 15px;
-    text-align: center;
-    width: 200px;
-  }
-  .sharethis-inline-share-buttons {
-    border-radius: none;
-    box-sizing: auto;
-    margin-top: 10px;
-  }
-  .social h2 {
-    font-size: 10px;
-  }
-}
-
-h2 {
-  color: aliceblue;
+.blog .grid-container h2 {
+  color: rgba(247, 12, 12, 0.812);
   text-align: center;
   width: 410px;
 }
@@ -115,10 +66,6 @@ h2 {
 .social h2 {
   color: black;
   text-align: center;
-  margin: auto;
-}
-
-article {
   margin: auto;
 }
 
