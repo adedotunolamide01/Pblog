@@ -72,7 +72,7 @@ img {
   .blog {
     display: grid;
     background: url("image/blog.jfif") no-repeat center;
-    height: 280vh;
+    height: 300vh;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
