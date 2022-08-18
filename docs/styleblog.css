@@ -72,7 +72,7 @@ img {
   .blog {
     display: grid;
     background: url("image/blog.jfif") no-repeat center;
-    height: 200vh;
+    height: 280vh;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -80,10 +80,9 @@ img {
     justify-content: center;
   }
   img {
-    height: 200px;
-    width: 220px;
+    height: 300px;
+    width: 350px;
     border: 2px;
-    margin-left: 50px;
     border-style: solid;
     border-radius: 20px;
     color: rgb(243, 245, 243);
@@ -92,9 +91,9 @@ img {
   .grid-container {
     display: grid;
     grid-gap: 20px;
-    width: 250px;
+    width: 350px;
     height: 1300px;
-    background-color: brown;
+
     grid-template-areas:
       "ring"
       "akobo"
@@ -104,19 +103,21 @@ img {
       "abeokuta"
       "social";
   }
-  .grid-container h2 {
-    font-size: 15px;
-    text-align: center;
-    width: 50px;
-    margin-right: 50px;
+  .blog .grid-container h2 {
+    font-size: 19px;
+    width: 350px;
+    justify-content: center;
   }
   .sharethis-inline-share-buttons {
+    height: 80%;
+    width: 80%;
     border-radius: none;
     box-sizing: auto;
     margin-top: 10px;
+    margin-left: 20px;
   }
 
   .social h2 {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
