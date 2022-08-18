@@ -1,0 +1,185 @@
+.blog {
+  display: grid;
+  background: url("image/blog.jfif") no-repeat center;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  color: rgb(26, 179, 77);
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  margin-top: 80px;
+  justify-content: center;
+  width: 1300px;
+  height: 600px;
+  grid-template-areas:
+    "ring akobo monatan"
+    "lekki olo abeokuta"
+    "oyo oyo oyo";
+}
+
+@media only screen and (max-width: 500px) {
+  .blog {
+    display: grid;
+    background: url("image/blog.jfif") no-repeat center;
+    height: 200vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+    justify-content: center;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    color: rgb(26, 179, 77);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 20px;
+    width: 250px;
+    height: 1200px;
+    grid-template-areas:
+      "ring "
+      " akobo"
+      " monatan "
+      " lekki"
+      " olo"
+      "abeokuta"
+      "oyo";
+  }
+  .grid-container h2 {
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  .sharethis-inline-share-buttons {
+    border-radius: none;
+    box-sizing: auto;
+    margin-top: 10px;
+  }
+  .social h2 {
+    font-size: 10px;
+  }
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  width: 410px;
+}
+
+.ring {
+  grid-area: ring;
+}
+.akobo {
+  grid-area: akobo;
+}
+.monatan {
+  grid-area: monatan;
+}
+.lekki {
+  grid-area: lekki;
+}
+.olo {
+  grid-area: olo;
+}
+.abeokuta {
+  grid-area: abeokuta;
+}
+.social {
+  grid-area: oyo;
+  background-color: aliceblue;
+  border-style: solid;
+  border-radius: 20px;
+  color: rgb(26, 179, 77);
+}
+
+.social h2 {
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+
+article {
+  margin: auto;
+}
+
+.sharethis-inline-share-buttons {
+  border-radius: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .blog .grid-container {
+    margin: 0;
+  }
+  img {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .blog {
+    display: grid;
+    background: url("image/blog.jfif") no-repeat center;
+    height: 200vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+    justify-content: center;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    color: rgb(26, 179, 77);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 20px;
+    width: 250px;
+    height: 1200px;
+    grid-template-areas:
+      "ring "
+      " akobo"
+      " monatan "
+      " lekki"
+      " olo"
+      "abeokuta"
+      "oyo";
+  }
+  .grid-container h2 {
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  .sharethis-inline-share-buttons {
+    border-radius: none;
+    box-sizing: auto;
+    margin-top: 10px;
+  }
+  .social h2 {
+    font-size: 10px;
+  }
+}
