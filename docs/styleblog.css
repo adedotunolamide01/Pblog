@@ -1,7 +1,7 @@
 .blog {
   display: grid;
   background: url("image/blog.jfif") no-repeat center;
-  height: 130vh;
+  height: 180vh;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -21,18 +21,17 @@ img {
 .grid-container {
   display: grid;
   grid-gap: 50px;
+  width: 1200px;
+  height: 1000px;
   margin-top: 50px;
-  justify-content: center;
-  width: 1300px;
-  height: 600px;
   grid-template-areas:
     "ring akobo monatan"
     "lekki olo abeokuta"
-    "oyo oyo oyo";
+    "social social social";
 }
 
 .blog .grid-container h2 {
-  color: rgba(247, 12, 12, 0.812);
+  color: rgb(146, 204, 22);
   text-align: center;
   width: 410px;
 }
@@ -56,7 +55,7 @@ img {
   grid-area: abeokuta;
 }
 .social {
-  grid-area: oyo;
+  grid-area: social;
   background-color: aliceblue;
   border-style: solid;
   border-radius: 20px;
@@ -67,19 +66,6 @@ img {
   color: black;
   text-align: center;
   margin: auto;
-}
-
-.sharethis-inline-share-buttons {
-  border-radius: none;
-}
-
-@media only screen and (max-width: 500px) {
-  .blog .grid-container {
-    margin: 0;
-  }
-  img {
-    margin: 0;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -95,37 +81,41 @@ img {
   }
   img {
     height: 200px;
-    width: 200px;
+    width: 220px;
     border: 2px;
+    margin-left: 50px;
     border-style: solid;
     border-radius: 20px;
-    color: rgb(26, 179, 77);
+    color: rgb(243, 245, 243);
   }
 
   .grid-container {
     display: grid;
     grid-gap: 20px;
     width: 250px;
-    height: 1200px;
+    height: 1300px;
+    background-color: brown;
     grid-template-areas:
-      "ring "
-      " akobo"
-      " monatan "
-      " lekki"
-      " olo"
+      "ring"
+      "akobo"
+      "monatan "
+      "lekki"
+      "olo"
       "abeokuta"
-      "oyo";
+      "social";
   }
   .grid-container h2 {
     font-size: 15px;
     text-align: center;
-    width: 200px;
+    width: 50px;
+    margin-right: 50px;
   }
   .sharethis-inline-share-buttons {
     border-radius: none;
     box-sizing: auto;
     margin-top: 10px;
   }
+
   .social h2 {
     font-size: 10px;
   }
