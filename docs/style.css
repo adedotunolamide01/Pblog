@@ -1,6 +1,6 @@
-@import url("/docs/css/styleport.css");
-@import url("/docs/css/stylecontact.css");
-@import url("/docs/css/styleblog.css");
+@import url("styleport.css");
+@import url("stylecontact.css");
+@import url("styleblog.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 * {
   margin: 0;
