@@ -170,7 +170,11 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
+<<<<<<< HEAD
   background: url("image/back.jpg") no-repeat center;
+=======
+  background: url("/image/back.jpg") no-repeat center;
+>>>>>>> 32d374458bae9bf22e906a9adf1ff5c193c7e6e4
   height: 100vh;
   color: #fff;
   min-height: 500px;
