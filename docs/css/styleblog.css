@@ -1,6 +1,6 @@
 .blog {
   display: grid;
-  background: url("image/blog.jfif") no-repeat center;
+  background: url("/docs/image/blog.jfif") no-repeat center;
   height: 180vh;
   min-height: 500px;
   background-size: cover;
